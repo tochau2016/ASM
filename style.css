@@ -11,6 +11,11 @@ body {
     background-color: #f3f3f3;
 }
 
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
 .navbar {
     padding-left: 20px;
     padding-right: 20px;
@@ -211,4 +216,132 @@ body {
     outline: none;
     border: 1px solid #97B5C0;
     color: #000000;
+}
+
+.home-slick {
+    margin: 40px 200px 100px 200px;
+}
+
+.home-slick-img-container {
+    width: 300px;
+    /* padding: 10px; */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.home-slick-img-container:hover img {
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 20px;
+    z-index: 99 !important;
+}
+
+.home-slick .home-slick-img-container img {
+    height: 100%;
+    width: 100%;
+}
+
+.slick-next {
+    right: -30px;
+}
+
+.slick-prev {
+    left: -50px;
+    z-index: 99;
+}
+
+.slick-prev:before, 
+.slick-next:before {
+    color: #afa1a1;
+    font-size: 40px;
+}
+
+.information {
+    padding: 100px 0px;
+    background-color: #000000;
+}
+
+.information h2 {
+    color: #fff;
+    font-weight: 600;
+    padding-bottom: 40px;
+    font-size: 1.6rem;
+}
+
+.information .email-form {
+    height: 50px;
+}
+
+.information input {
+    width: 400px;
+    height: 70%;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.information input:focus {
+    border: none;
+    outline: none;
+}
+
+.information .send-email-btn {
+    height: 70%;
+    width: 40px;
+    outline: none;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.send-email-btn img {
+    height: 100%;
+    width: 50%;
+}
+
+.detail-info {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.detail-info .brand-name {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+.detail-info p {
+    margin-bottom: 0;
+    font-size: 1.4rem;
+}
+
+.footer {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.footer h4 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.footer ul {
+    padding-left: 5px;
+}
+
+.footer li {
+    list-style-type: none;
+}
+
+.footer ul li a {
+    font-size: 1.1rem;
+}
+
+.footer .middle-col .fab {
+    font-size: 1.6rem;
+}
+
+.copyright {
+    background-color: #000000;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 15px 0px;
 }
