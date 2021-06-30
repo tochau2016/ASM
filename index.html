@@ -19,9 +19,9 @@
     <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./slick/slick.css">
     <link rel="stylesheet" href="./slick/slick-theme.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -241,8 +241,66 @@
 
 
 
+    <div class="home-slick d-flex align-items-center justify-content-around">
+        <div class="home-slick-img-container h-100">
+            <img src="./pic/bst/ví/10.jpg" alt="SLICK IMG">
+        </div>
+        <div class="home-slick-img-container h-100">
+            <img src="./pic/bst/túi/100.jpg" alt="SLICK IMG">
+        </div>
+        <div class="home-slick-img-container h-100">
+            <img src="./pic/bst/balo/150.jpg" alt="SLICK IMG">
+        </div>
+        <div class="home-slick-img-container h-100">
+            <img src="./pic/bst/balo/150.jpg" alt="SLICK IMG">
+        </div>
+        <div class="home-slick-img-container h-100">
+            <img src="./pic/bst/balo/150.jpg" alt="SLICK IMG">
+        </div>
+        <div class="home-slick-img-container h-100">
+            <img src="./pic/bst/balo/150.jpg" alt="SLICK IMG">
+        </div>
+        <div class="home-slick-img-container h-100">
+            <img src="./pic/bst/balo/150.jpg" alt="SLICK IMG">
+        </div>
+        <div class="home-slick-img-container h-100">
+            <img src="./pic/bst/balo/150.jpg" alt="SLICK IMG">
+        </div>
+    </div>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -251,12 +309,12 @@
 
     <script type="text/javascript">
         $(document).ready(function () {
-            $('.responsive').slick({
-                dots: true,
-                infinite: false,
+            $('.home-slick').slick({
+                dots: false,
+                infinite: true,
                 speed: 300,
-                slidesToShow: 4,
-                slidesToScroll: 4,
+                slidesToShow: 3,
+                slidesToScroll: 3,
                 responsive: [
                     {
                         breakpoint: 1024,
