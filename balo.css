@@ -1,0 +1,107 @@
+.container-content {
+    margin: 30px 40px;
+}
+
+.empty-box {
+    color: transparent;
+    border: 1px solid #9f9c9c;
+    padding: 5px 10px;
+}
+
+.form-check-container {
+    padding-left: 15px;
+}
+
+.size-box {
+    color: transparent;
+    border: 1px solid #9f9c9c;
+    margin-top: 20px;
+    padding: 5px 10px;
+}
+
+.color-box {
+    border: 1px solid #9f9c9c;
+    margin-top: 20px;
+    padding: 10px 10px;
+}
+
+.color-box .color-container {
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 20px;
+}
+
+.color-box .color-container .row {
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.color-box .color-container .row .color {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.pink {
+    background-color: #FCB9B9;
+}
+
+.black {
+    background-color: #000000;
+}
+
+.red {
+    background-color: #FF3B3B;
+}
+
+.white {
+    background-color: white;
+    border: 1px solid #000000;
+}
+
+.yellow {
+    background-color: #F6FF83;
+}
+
+.blue {
+    background-color: #5057E2;
+}
+
+.orange {
+    background-color: #FFA655;
+}
+
+.cyan {
+    background-color: #59C7D3;
+}
+
+.green {
+    background-color: #52BF5F;
+}
+
+.product-item {
+    position: relative;
+    width: 250px;
+    height: 290px;
+}
+
+.img-contain {
+    position: absolute;
+}
+
+.product-content {
+    position: absolute;
+    z-index: 99;
+    bottom: 0;
+}
+
+.product-item button {
+    height: 40px;
+    width: 40px;
+    outline: none;
+    border: none;
+    background-color: #F2886B;
+    color: #fff;
+    border-radius: 50%;
+}
