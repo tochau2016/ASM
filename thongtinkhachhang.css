@@ -31,7 +31,16 @@
     list-style-type: none;
     padding-left: 1rem;
     position: absolute;
-    bottom: 40px;
+    bottom: 20px;
+}
+
+.direct-link-item {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.info-direct-link .direct-link-list .direct-link-item a {
+    font-size: 1.3rem;
 }
 
 .change-user-profile {
@@ -41,7 +50,7 @@
 
 .user-profile-title {
     padding-bottom: 10px;
-    border-bottom: 1px solid #000000;
+    border-bottom: 2px solid #000000;
     margin: 0px 30px 10px 30px;
 }
 
@@ -62,4 +71,43 @@
     outline: none;
     background-color: #F2886B;
     color: #fff;
+}
+
+.change-password-section {
+    padding: 15px 20px;
+    border: 1px solid #000000;
+}
+
+.change-password-section .change-password-title {
+    border-bottom: 2px solid #000000;
+    padding-bottom: 20px;
+}
+
+.change-password-form {
+    padding-top: 20px;
+}
+
+.change-password-form .mini-form {
+    width: 50%;
+}
+
+.change-password-form .mini-form input {
+    border: 1px solid #000000;
+    border-radius: 0%;
+    height: 32px;
+}
+
+.order-history {
+    margin-top: 3rem;
+    padding: 15px 20px;
+    border: 1px solid #000000;
+}
+
+.order-history-title {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #000000;
+}
+
+.order-history-detail {
+    padding-top: 20px;
 }

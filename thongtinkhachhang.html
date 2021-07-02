@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./balo.css">
     <link rel="stylesheet" href="./thongtinkhachhang.css">
     <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
@@ -190,15 +191,130 @@
                     </div>
                 </div>
             </div>
+
+
+            <!-- Start Change Password Form -->
+            <div class="change-password-section mt-5" id="change-password">
+                <div class="change-password-title">
+                    <h4 style="font-size: 1.5rem;">THAY ĐỔI MẬT KHẨU</h4>
+                    <span>Bạn nên cập nhật mật khẩu thường xuyên vì lí do bảo mật</span>
+                </div>
+                <div class="change-password-form d-flex justify-content-center mt-4">
+                    <div class="mini-form">
+                        <div class="old-password d-flex align-items-center mb-3">
+                            <div class="col-4">
+                                <label for="inputOldPassword" class="col-form-label">Mật khẩu cũ</label>
+                            </div>
+                            <div class="col-8">
+                                <input type="password" id="inputOldPassword" class="form-control">
+                            </div>
+                        </div>
+                        <div class="new-password d-flex align-items-center mb-3">
+                            <div class="col-4">
+                                <label for="inputNewPassword" class="col-form-label">Mật khẩu mới</label>
+                            </div>
+                            <div class="col-8">
+                                <input type="password" id="inputNewPassword" class="form-control">
+                            </div>
+                        </div>
+                        <div class="confirm-password d-flex align-items-center mb-3">
+                            <div class="col-4">
+                                <label for="inputConfirmPassword" class="col-form-label">Xác nhận mật khẩu</label>
+                            </div>
+                            <div class="col-8">
+                                <input type="password" id="inputConfirmPassword" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="update-btn d-flex justify-content-center align-items-center mt-4">
+                    <button>
+                        <span>XÁC NHẬN</span>
+                    </button>
+                </div>
+            </div>
+            <!-- End Change Password Form -->
+
+            <!-- Start Order History -->
+            <div class="order-history" id="order-history">
+                <div class="order-history-title">
+                    <h4 style="font-size: 1.5rem;">LỊCH SỬ ĐƠN HÀNG</h4>
+                </div>
+                <div class="order-history-detail d-flex">
+                    <div class="number-order col">
+                        <h5>Mã đơn hàng</h5>
+                        <span>123</span>
+                    </div>
+                    <div class="date col">
+                        <h5>Ngày</h5>
+                        <span>21/12/2121</span>
+                    </div>
+                    <div class="order-total col">
+                        <h5>Tổng đơn</h5>
+                        <span>100.000 VNĐ</span>
+                    </div>
+                    <div class="order-status col">
+                        <h5>Trạng thái</h5>
+                        <span>Đang vận chuyển</span>
+                    </div>
+                </div>
+            </div>
+            <!-- End Order History -->
         </div>
 
     </section>
 
+    <!-- Start Product Just Seen -->
+    <section>
+        <div class="seen-product mb-5">
+            <div class="seen-product-title">
+                <span>SẢN PHẨM ĐÃ XEM</span>
+            </div>
 
-
-
-
-
+            <div class="list-seen-product d-flex align-items-center ps-4 pt-4 pb-4">
+                <div class="product-item">
+                    <div class="img-contain w-100 h-100">
+                        <img src="./pic/bst/túi/111.jpg" alt="IMG PRODUCT" class="w-100 h-100">
+                    </div>
+                    <div class="product-content d-flex justify-content-around align-items-center w-100">
+                        <button class="wish-list-btn">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button class="add-product-btn">
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="img-contain w-100 h-100">
+                        <img src="./pic/bst/túi/111.jpg" alt="IMG PRODUCT" class="w-100 h-100">
+                    </div>
+                    <div class="product-content d-flex justify-content-around align-items-center w-100">
+                        <button class="wish-list-btn">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button class="add-product-btn">
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="img-contain w-100 h-100">
+                        <img src="./pic/bst/túi/111.jpg" alt="IMG PRODUCT" class="w-100 h-100">
+                    </div>
+                    <div class="product-content d-flex justify-content-around align-items-center w-100">
+                        <button class="wish-list-btn">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button class="add-product-btn">
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Product Just Seen -->
 
     <!-- Start GET Information -->
     <div class="information">
