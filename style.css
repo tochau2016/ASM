@@ -276,6 +276,7 @@ a {
     border: none;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    padding-left: 20px;
 }
 
 .information input:focus {

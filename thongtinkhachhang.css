@@ -1,0 +1,65 @@
+.user-info {
+    margin: 50px 100px;
+}
+
+
+.general-info-col {
+    border: 1px solid #000000;
+    padding: 20px 10px;
+    position: relative;
+}
+
+.avatar-user {
+    margin-bottom: 30px;
+    top: 20px;
+}
+
+.avatar-img {
+    height: 200px;
+    width: 200px;
+    background-color: #000000;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.general-info-col span {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.direct-link-list {
+    list-style-type: none;
+    padding-left: 1rem;
+    position: absolute;
+    bottom: 40px;
+}
+
+.change-user-profile {
+    padding: 10px 10px 30px 10px;
+    border: 1px solid #000000;
+}
+
+.user-profile-title {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000000;
+    margin: 0px 30px 10px 30px;
+}
+
+.user-profile-form {
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.user-profile-form input {
+    border: 1px solid #000000;
+    border-radius: 0%;
+    height: 32px;
+}
+
+.update-btn button {
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    background-color: #F2886B;
+    color: #fff;
+}
