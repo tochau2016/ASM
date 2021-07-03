@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Đăng Nhập | CIRCLE.VN</title>
     <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="./style.css">
@@ -79,6 +79,165 @@
         </div>
     </div>
     <!--endquangcao-->
+
+    <!-- Form Sign In - Sign Up -->
+    <div class="signin-signup-form">
+        <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+                    role="tab" aria-controls="home" aria-selected="true">Đăng Nhập</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
+                    role="tab" aria-controls="profile" aria-selected="false">Đăng Ký</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+                <div class="login-form">
+                    <div class="input-group">
+                        <label for="">Email:*</label>
+                        <input type="email" placeholder="Nhập email...">
+                    </div>
+                    <div class="input-group">
+                        <label for="">Mật khẩu:</label>
+                        <input type="password" placeholder="Nhập mật khẩu...">
+                    </div>
+                    <div class="confirm-btn mt-4">
+                        <button>
+                            ĐĂNG NHẬP
+                        </button>
+                    </div>
+                    <div class="forgot-password text-center mt-5">
+                        <a href="#" style="font-size: 1.3rem;">Quên mật khẩu ?</a>
+                        <div class="social-login mt-3">
+                            <h5>Hoặc đăng nhập với: </h5>
+                            <div class="social-icons">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <div class="login-form">
+                    <div class="input-group">
+                        <label for="">Họ và Tên:</label>
+                        <input type="text" placeholder="Nhập Họ Tên...">
+                    </div>
+                    <div class="input-group">
+                        <label for="">Số điện thoại:</label>
+                        <input type="number" placeholder="Nhập số điện thoại...">
+                    </div>
+                    <div class="form-check ps-0 mb-4">
+                        <label for="">Giới tính:</label>
+                        <div class="form-check-container d-flex align-items-center justify-content-around">
+                            <div class="form-check d-flex align-items-center">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                <label class="form-check-label mb-0 ms-3" for="exampleRadios1">
+                                  Nam
+                                </label>
+                              </div>
+                              <div class="form-check d-flex align-items-center">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                <label class="form-check-label mb-0 ms-3" for="exampleRadios2">
+                                  Nữ
+                                </label>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="">Email:*</label>
+                        <input type="email" placeholder="Nhập email...">
+                    </div>
+                    <div class="input-group">
+                        <label for="">Mật khẩu:</label>
+                        <input type="password" placeholder="Nhập mật khẩu...">
+                    </div>
+                    <div class="confirm-btn mt-4">
+                        <button>
+                            ĐĂNG KÝ
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Form Sign In - Sign Up -->
+
+
+    <!-- Start GET Information -->
+    <div class="information">
+        <h2 class="text-center">ĐĂNG KÝ NHẬN THÔNG TIN KHUYÊN MÃI</h2>
+        <div class="email-form d-flex align-items-center justify-content-center">
+            <input type="email">
+            <button class="send-email-btn">
+                <img src="./pic/icons/check-solid.svg" alt="ICONS">
+            </button>
+        </div>
+    </div>
+    <!-- End Get Information -->
+
+    <!-- Start Detail Shop Info -->
+    <div class="detail-info text-center">
+        <h3 class="brand-name">CIRCLE.VN</h3>
+        <div class="address-info">
+            <p class="address">Address: 1100 TL43 Bình Chiểu thủ Đức</p>
+            <p class="phone">Phone: 0123456789</p>
+            <p class="time-active">Open 09:00am - Close: 10:00pm</p>
+        </div>
+    </div>
+    <!-- End Detail Shop Info -->
+
+    <!-- Start Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer d-flex">
+                <div class="left-col col">
+                    <h4 class="left-col-title text-uppercase">dịch vụ khách hàng</h4>
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <a href="#">Hướng dẫn mua hàng</a>
+                        </li>
+                        <li class="service-item">
+                            <a href="#">Chính sách bán hàng</a>
+                        </li>
+                        <li class="service-item">
+                            <a href="#">Bảo hành và đổi trả</a>
+                        </li>
+                        <li class="service-item">
+                            <a href="./faq.html">FAQ'S</a>
+                        </li>
+                        <li class="service-item">
+                            <a href="#">Tuyển dụng</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="middle-col col">
+                    <h4 class="middle-col-title text-uppercase">kết nối circle</h4>
+                    <div class="icons-footer mt-2">
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-instagram ms-3"></i>
+                    </div>
+                </div>
+
+                <div class="right-col col">
+                    <h4 class="right-col-title text-uppercase">phương thức thanh toán</h4>
+                    <div class="payment-methods">
+                        <img src="./pic/icons/payment.png" alt="PAYMENTS">
+                    </div>
+                </div>
+            </div>
+            <div class="copyright text-center">
+                Copyright Allright Reserved
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="./bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
