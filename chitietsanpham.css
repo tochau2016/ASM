@@ -1,0 +1,208 @@
+.mini-images {
+    margin-top: 40px;
+}
+
+.product-detail-container {
+    margin: 20px 200px;
+}
+
+.product-detail-info {
+    font-weight: 600;
+}
+
+.top-detail {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #000000;
+}
+
+.product-detail-info .detail-col .top-detail p {
+    margin-bottom: .5rem;
+    font-size: 1rem;
+}
+
+.product-detail-info .detail-col .top-detail .name-product {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.top-detail .product-cost {
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    margin-top: 20px;
+    width: 70%;
+}
+
+.product-size-contain {
+    margin-top: 20px;
+}
+
+.product-size-contain h5 {
+    margin-bottom: 5px;
+    font-style: 1.2rem;
+    font-weight: 600;
+}
+
+.product-size-contain .size-product-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.s-size {
+    font-size: 1.2rem;
+    padding: 5px 13px;
+    border: 1px solid #000000;
+}
+
+.s-size:hover {
+    cursor: pointer;
+}
+
+.m-size {
+    font-size: 1.2rem;
+    padding: 5px 13px;
+    border: 1px solid #000000;
+}
+
+.m-size:hover {
+    cursor: pointer;
+}
+
+.l-size {
+    font-size: 1.2rem;
+    border: 1px solid #000000;
+    padding: 5px 15px;
+}
+
+.l-size:hover {
+    cursor: pointer;
+}
+
+.product-color-contain {
+    margin-top: 20px;
+}
+
+.product-color-contain h5 {
+    margin-bottom: 5px;
+    font-style: 1.2rem;
+    font-weight: 600;
+}
+
+.product-color-contain .color-product {
+    width: 40%;
+}
+
+.product-color-contain .color-product .white {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #000000;
+}
+
+.product-color-contain .color-product .black {
+    width: 40px;
+    height: 40px;
+    background-color: #000000;
+}
+
+.product-color-contain .color-product .pink {
+    width: 40px;
+    height: 40px;
+    background-color: #F2886B;
+}
+
+.quantity-product {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 1px solid #8a8a8a;
+    width: fit-content;
+}
+
+.quantity-product button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: #CEC5C6;
+}
+
+.quantity-product input {
+    border: none;
+    background-color: #f3f3f3;
+}
+
+.quantity-product input:focus {
+    border: none;
+    outline: none;
+}
+
+.counter {
+    width: 150px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.counter input {
+    width: 50px;
+    border: 0;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+    background: #0052cc;
+    color: #fff;
+    appearance: none;
+    outline: 0;
+}
+.counter span {
+    display: block;
+    font-size: 25px;
+    padding: 0 10px;
+    cursor: pointer;
+    color: #0052cc;
+    user-select: none;
+}
+
+.product-buttons-contain {
+    margin-top: 20px;
+}
+
+.product-buttons-contain button {
+    border: none;
+    width: 40%;
+    text-align: center;
+}
+
+.add-cart-btn {
+    border: 1px solid #949393 !important;
+    padding: 10px 5px;
+    background-color: #fff;
+}
+
+.checkout-btn {
+    margin-left: 10px;
+    background-color: #F2886B;
+    padding: 11px 5px;
+    color: #fff;
+}
+
+.detail-col .bottom-detail {
+    margin-top: 30px;
+}
+
+.detail-col .bottom-detail p {
+    margin-bottom: 4px;
+}
+
+.seen-product {
+    margin-top: 100px;
+}
+
+.breadcrumb {
+    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
