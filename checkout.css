@@ -1,0 +1,135 @@
+.seen-product .seen-product-title span {
+    background-color: #000000;
+}
+
+.seen-product .list-seen-product {
+    border-top: 3px solid #000000;
+    border-bottom: 3px solid #000000;
+}
+
+.checkout-container {
+    margin: 60px 100px 100px 100px;
+}
+
+.checkout-container .row-name-detail-product{
+    background-color: #000000;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+}
+
+.checkout-container .row-name-detail-product .name-container h4{
+    width: 20%;
+    font-size: 1.2rem;
+}
+
+.info-checkout .total-product {
+    margin-top: 30px;
+    padding: 10px 20px;
+    border: 2px solid #797979;
+    height: fit-content;
+}
+
+.total-product-item {
+    height: 100px;
+}
+
+.img-total-product-item img {
+    width: 100px;
+    height: 100%;
+}
+
+.total-product-detail {
+    width: 180px;
+    margin-top: 5px;
+}
+
+.total-product-detail p {
+    margin-bottom: 4px;
+}
+
+.total-product-detail button {
+    border: none;
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+.total-product-cost {
+    transform: translateX(16px);
+}
+
+.total-product-cost span{
+    font-weight: 600;
+}
+
+.item {
+    width: 20% !important;
+}
+
+.quantity-product input {
+    width: 100%;
+}
+
+.total-product-action {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+
+}
+
+.total-product-action button {
+    border: none;
+    background-color: transparent;
+    font-size: 1.4rem;
+}
+
+.quantity-product {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.total-order {
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    border: 2px solid #797979;
+}
+
+.total-order .total-order-title h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 26px;
+}
+
+.total-order .temporary-content {
+    padding-bottom: 18px;
+    border-bottom: 2px solid #797979;
+}
+
+.total-order .temporary-content span {
+    font-weight: 600;
+}
+
+.total-order .temporary-content .notice-info {
+    font-size: .6rem;
+    font-style: italic;
+    margin-top: 8px;
+}
+
+.total-order .total-order-cost {
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.total-order .total-order-cost span:nth-child(2) {
+    color: #FF5D64;
+}
+
+.total-order button {
+    border: none;
+    padding: 5px 60px;
+    background-color: #F2886B;
+    color: #fff;
+}

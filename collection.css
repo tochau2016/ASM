@@ -1,0 +1,34 @@
+.middle-col .collection-top-item {
+    height: 500px;
+    padding: .5rem !important;
+}
+
+.top-collection {
+    height: 650px;
+}
+
+.collection-header {
+    padding-bottom: 50px;
+}
+
+.top-collection .collection-col {
+    width: calc(100% * 0.33333);
+    height: 100vh;
+}
+
+.bottom-collection {
+    height: 650px;
+}
+
+.bottom-collection .left-col {
+    width: calc(100% * 0.66666);
+}
+
+.bottom-collection .right-col {
+    width: calc(100% * 0.33333);
+}
+
+.collection-container {
+    padding-top: 30px;
+    padding-bottom: 150px;
+}
