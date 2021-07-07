@@ -69,6 +69,7 @@
 
 .quantity-product input {
     width: 100%;
+    user-select: none;
 }
 
 .total-product-action {
@@ -128,8 +129,24 @@
 }
 
 .total-order button {
-    border: none;
+    border: 1px solid #FF5D64;
     padding: 5px 60px;
     background-color: #F2886B;
     color: #fff;
+}
+
+.total-order button:hover {
+    background-color: #fff;
+    border: 1px solid #FF5D64;
+    color: #FF5D64;
+}
+
+.total-product-item .quantity-product span button:hover {
+    background-color: #FF5D64;
+    color: #fff;
+}
+
+.total-product-item .total-product-detail button:hover,
+.total-product-item .total-product-action button:hover {
+    color: #ea000c;
 }

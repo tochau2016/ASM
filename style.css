@@ -48,6 +48,10 @@ a {
     font-size: 1.2rem;
 }
 
+.sponsor-item {
+    user-select: none;
+}
+
 .sponsor-item .fas {
     font-size: 1.7rem;
 }
@@ -299,8 +303,8 @@ a {
 }
 
 .detail-info {
-    margin-top: 40px;
-    margin-bottom: 60px;
+    margin-top: 100px;
+    margin-bottom: 150px;
 }
 
 .detail-info .brand-name {
@@ -345,4 +349,30 @@ a {
     font-weight: 600;
     color: #fff;
     padding: 15px 0px;
+}
+
+.payment-method {
+    width: 50px;
+    height: 50px;
+}
+
+.vnpay {
+    height: 40px;
+    width: 120px !important;
+}
+
+.discount-value:hover {
+    border: none;
+    background-color: #F2886B;
+    color: #fff;
+}
+
+#searchBar {
+    height: 30px;
+    padding-left: 10px;
+    display: none;
+}
+
+#searchBar:focus {
+    outline: none;
 }

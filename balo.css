@@ -147,3 +147,17 @@
     border-top: 3px solid #97B5C0;
     border-bottom: 3px solid #97B5C0;
 }
+
+.form-check {
+    user-select: none;
+}
+
+.color-box .color-container .row div:hover {
+    border: 1px solid #9f9c9c;
+    cursor: pointer;
+}
+
+.product-item .product-content button:hover {
+    background-color: #fff;
+    color: #F2886B;
+}
