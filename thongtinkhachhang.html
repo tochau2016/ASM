@@ -27,10 +27,13 @@
                 <li class="nav-item"><a href="#" class="nav-link">VÍ TIỀN</a></li>
             </ul>
         </div>
+        <div class="searchBar" id="searchBar">
+            <input type="text" id="searchInput"><button onclick="window.location.href = 'ketquatimkiem.html';">Tìm</button>
+        </div>
         <div class="ml-auto d-flex justify-content-center align-items-center float-right">
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a href="./ketquatimkiem.html" class="nav-link">
+                <li id="showSearchBar" class="nav-item">
+                    <a class="nav-link">
                         <i class="fas fa-search"></i>
                     </a>
                 </li>
@@ -41,15 +44,16 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="./thongtinkhachhang.html" class="nav-link">
+                    <a href="./login.html" class="nav-link">
                         <i class="fas fa-user"></i>
                     </a>
                 </li>
             </ul>
         </div>
+
     </nav>
     <!-- endmenunavbar -->
-
+    
     <!--quangcao-->
     <div class="sponsor mx-auto d-flex justify-content-center align-items-center w-100 py-2">
         <div class="sponsor-item d-flex flex-row bd-highlight align-items-center">
@@ -106,11 +110,11 @@
                     </div>
                     <div class="info-direct-link d-block">
                         <ul class="direct-link-list">
-                            <li class="direct-link-item">
-                                <a href="#change-user-profile">Thông tin tài khoản</a>
+                            <li class="direct-link-item" onclick="showChangeProfile('change-password', 'change-user-profile')">
+                                <a>Thông tin tài khoản</a>
                             </li>
-                            <li class="direct-link-item">
-                                <a href="#change-password">Đổi mật khẩu</a>
+                            <li class="direct-link-item" onclick="showChangeProfile('change-user-profile', 'change-password')">
+                                <a>Đổi mật khẩu</a>
                             </li>
                             <li class="direct-link-item">
                                 <a href="#order-history">Lịch sử đơn hàng</a>
@@ -191,50 +195,50 @@
                         </button>
                     </div>
                 </div>
-            </div>
 
-
-            <!-- Start Change Password Form -->
-            <div class="change-password-section mt-5" id="change-password">
-                <div class="change-password-title">
-                    <h4 style="font-size: 1.5rem;">THAY ĐỔI MẬT KHẨU</h4>
-                    <span>Bạn nên cập nhật mật khẩu thường xuyên vì lí do bảo mật</span>
-                </div>
-                <div class="change-password-form d-flex justify-content-center mt-4">
-                    <div class="mini-form">
-                        <div class="old-password d-flex align-items-center mb-3">
-                            <div class="col-4">
-                                <label for="inputOldPassword" class="col-form-label">Mật khẩu cũ</label>
+                <!-- Start Change Password Form -->
+                <div class="change-password-section ms-4 w-100" id="change-password">
+                    <div class="change-password-title">
+                        <h4 style="font-size: 1.5rem;">THAY ĐỔI MẬT KHẨU</h4>
+                        <span>Bạn nên cập nhật mật khẩu thường xuyên vì lí do bảo mật</span>
+                    </div>
+                    <div class="change-password-form d-flex justify-content-center mt-4">
+                        <div class="mini-form">
+                            <div class="old-password d-flex align-items-center mb-3">
+                                <div class="col-4">
+                                    <label for="inputOldPassword" class="col-form-label">Mật khẩu cũ</label>
+                                </div>
+                                <div class="col-8">
+                                    <input type="password" id="inputOldPassword" class="form-control">
+                                </div>
                             </div>
-                            <div class="col-8">
-                                <input type="password" id="inputOldPassword" class="form-control">
+                            <div class="new-password d-flex align-items-center mb-3">
+                                <div class="col-4">
+                                    <label for="inputNewPassword" class="col-form-label">Mật khẩu mới</label>
+                                </div>
+                                <div class="col-8">
+                                    <input type="password" id="inputNewPassword" class="form-control">
+                                </div>
                             </div>
-                        </div>
-                        <div class="new-password d-flex align-items-center mb-3">
-                            <div class="col-4">
-                                <label for="inputNewPassword" class="col-form-label">Mật khẩu mới</label>
-                            </div>
-                            <div class="col-8">
-                                <input type="password" id="inputNewPassword" class="form-control">
-                            </div>
-                        </div>
-                        <div class="confirm-password d-flex align-items-center mb-3">
-                            <div class="col-4">
-                                <label for="inputConfirmPassword" class="col-form-label">Xác nhận mật khẩu</label>
-                            </div>
-                            <div class="col-8">
-                                <input type="password" id="inputConfirmPassword" class="form-control">
+                            <div class="confirm-password d-flex align-items-center mb-3">
+                                <div class="col-4">
+                                    <label for="inputConfirmPassword" class="col-form-label">Xác nhận mật khẩu</label>
+                                </div>
+                                <div class="col-8">
+                                    <input type="password" id="inputConfirmPassword" class="form-control">
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <div class="update-btn d-flex justify-content-center align-items-center mt-4">
+                        <button>
+                            <span>XÁC NHẬN</span>
+                        </button>
+                    </div>
                 </div>
-                <div class="update-btn d-flex justify-content-center align-items-center mt-4">
-                    <button>
-                        <span>XÁC NHẬN</span>
-                    </button>
-                </div>
+                <!-- End Change Password Form -->
             </div>
-            <!-- End Change Password Form -->
+
 
             <!-- Start Order History -->
             <div class="order-history" id="order-history">
@@ -386,6 +390,10 @@
         </div>
     </footer>
     <!-- End Footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./slick/slick.min.js"></script>
+    <script src="./index.js"></script>
 </body>
 
 </html>

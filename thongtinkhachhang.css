@@ -30,7 +30,6 @@
 .direct-link-list {
     list-style-type: none;
     padding-left: 1rem;
-    position: absolute;
     bottom: 20px;
 }
 
@@ -46,6 +45,7 @@
 .change-user-profile {
     padding: 10px 10px 30px 10px;
     border: 1px solid #000000;
+    /* display: none; */
 }
 
 .user-profile-title {
@@ -71,11 +71,19 @@
     outline: none;
     background-color: #F2886B;
     color: #fff;
+    border: 1px solid #F2886B;
+}
+
+.update-btn button:hover {
+    background-color: #fff;
+    color: #F2886B;
+    border: 1px solid #F2886B;
 }
 
 .change-password-section {
     padding: 15px 20px;
     border: 1px solid #000000;
+    display: none;
 }
 
 .change-password-section .change-password-title {
@@ -111,3 +119,9 @@
 .order-history-detail {
     padding-top: 20px;
 }
+
+.info-direct-link .direct-link-list .direct-link-item:hover a{
+    cursor: pointer;
+    color: #F2886B;
+}
+
