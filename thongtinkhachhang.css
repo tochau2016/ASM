@@ -125,3 +125,42 @@
     color: #F2886B;
 }
 
+@media only screen and (max-width: 1023px) {
+    .user-info {
+         margin: 50px 20px;
+    }
+
+    .general-info-col {
+        border: none;
+        margin: 0 auto;
+    }
+
+    .info-container .top-info {
+        flex-direction: column;
+    }
+
+    .change-user-profile,
+    .change-password-section {
+        margin-left: 0px !important;
+    }
+
+    .change-password-form .mini-form {
+        width: 100%;
+    }
+
+    .user-profile-title {
+        margin: 0px 12px 10px 12px;
+    }
+
+    .user-profile-form {
+        margin-left: 20px;
+    }
+
+    .user-profile-form .col-2 {
+        width: 40% !important;
+    }
+
+    .user-profile-form .col-6 {
+        width: 58%;
+    }
+}
