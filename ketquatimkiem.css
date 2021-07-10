@@ -15,3 +15,28 @@
 .find-result {
     margin-bottom: 80px;
 }
+
+@media only screen and (max-width: 1024px) {
+    .find-result-product {
+        margin-left: 140px;
+        margin-right: 140px;
+        justify-content: space-around !important;
+    }
+
+    .find-result-product .test .product-item {
+        width: 315px;
+        height: 315px;    
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .find-result-product {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    
+    .find-result-product .test .product-item {
+        width: 360px;
+        height: 360px;
+    }
+}

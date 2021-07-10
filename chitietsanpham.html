@@ -18,20 +18,16 @@
 <body>
 
     <!-- menunavbar -->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a href="./index.html" class="navbar-brand">CIRCLE.VN</a>
-        <div class="mx-auto d-flex justify-content-center align-items-center w-100">
+        <div class="mx-auto d-flex justify-content-center align-items-center w-100 product-navbar">
             <ul class="navbar-nav">
                 <li class="nav-item"><a href="./balo.html" class="nav-link">BALO</a></li>
                 <li class="nav-item"><a href="#" class="nav-link nav-text-center">TÚI XÁCH</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">VÍ TIỀN</a></li>
             </ul>
         </div>
-        <div class="searchBar" id="searchBar">
-            <input type="text" id="searchInput"><button
-                onclick="window.location.href = 'ketquatimkiem.html';">Tìm</button>
-        </div>
-        <div class="ml-auto d-flex justify-content-center align-items-center float-right">
+        <div class="ml-auto d-flex justify-content-center align-items-center float-right icon-navbar">
             <ul class="navbar-nav">
                 <li id="showSearchBar" class="nav-item">
                     <a class="nav-link">
@@ -50,8 +46,34 @@
                     </a>
                 </li>
             </ul>
-        </div>
+            <label for="nav-mobile-input" class="navbar-btn">
+                <i class="fas fa-bars"></i>
+            </label>
 
+            <input type="checkbox" name="" class="nav-input" id="nav-mobile-input">
+            <label for="nav-mobile-input" class="nav-overlay"></label>
+
+            <div class="nav-mobile">
+                <label for="nav-mobile-input" class="nav__mobile-close">
+                    <i class="fas fa-times"></i>
+                </label>
+                <ul class="nav-mobile-list">
+                    <li>
+                        <a href="./balo.html" class="nav-mobile-link">BALO</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-mobile-link">TÚI XÁCH</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-mobile-link">VÍ TIỀN</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="searchBar" id="searchBar">
+            <input type="text" id="searchInput"><button
+                onclick="window.location.href = 'ketquatimkiem.html';">Tìm</button>
+        </div>
     </nav>
     <!-- endmenunavbar -->
 
@@ -188,7 +210,9 @@
     <section>
         <div class="seen-product mb-5">
             <div class="seen-product-title">
+                <div class="title-line"></div>
                 <span>SẢN PHẨM ĐÃ XEM</span>
+                <div class="title-line"></div>
             </div>
 
             <div class="list-seen-product d-flex align-items-center ps-4 pt-4 pb-4">

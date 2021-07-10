@@ -150,3 +150,27 @@
 .total-product-item .total-product-action button:hover {
     color: #ea000c;
 }
+
+@media only screen and (max-width: 1024px) {
+    .row-name-detail-product {
+        display: none;
+    }
+
+    .info-checkout {
+        flex-direction: column;
+    }
+
+    .info-checkout .total-product {
+        width: 100% !important;
+    }
+
+    .info-checkout .total-order {
+        width: 100% !important;
+        margin-left: 0;
+    }
+
+    .seen-product .list-seen-product {
+        border: none;
+        margin-top: 20px;
+    }
+}

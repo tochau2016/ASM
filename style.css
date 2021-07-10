@@ -511,7 +511,7 @@ a {
     opacity: 1;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1024px) {
     .product-navbar {
         display: none !important;
     }
