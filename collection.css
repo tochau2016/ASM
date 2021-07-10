@@ -32,3 +32,38 @@
     padding-top: 30px;
     padding-bottom: 150px;
 }
+
+@media only screen and (max-width: 1024px) {
+    .collection-content .top-collection {
+        height: 800px;
+    }
+
+    .collection-content .left-col {
+        width: 50%;
+    }
+
+    .collection-content .middle-col {
+        display: none;
+    }
+
+    .collection-content .right-col {
+        width: 50%;
+    }
+
+    .bottom-collection {
+        height: 450px;
+    }
+
+    .bottom-collection .left-col {
+        display: none;
+    }
+
+    .bottom-collection .right-col {
+        display: flex;
+        width: 100%;
+    }
+
+    .bottom-collection .right-col .collection-item {
+        height: 100% !important;
+    }
+}

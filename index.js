@@ -19,7 +19,8 @@ $(document).ready(function () {
                 breakpoint: 600,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 2
+                    slidesToScroll: 2,
+                    infinite: true,
                 }
             },
             {
@@ -34,6 +35,10 @@ $(document).ready(function () {
 
     $('#showSearchBar').click(function () {
         $('.searchBar').toggle();
+    })
+
+    $('#showCategoryCol').click(function () {
+        $('.category-col').toggle();
     })
 })
 

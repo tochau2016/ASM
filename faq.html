@@ -72,8 +72,10 @@
             </div>
         </div>
         <div class="searchBar" id="searchBar">
-            <input type="text" id="searchInput"><button
-                onclick="window.location.href = 'ketquatimkiem.html';">Tìm</button>
+            <div class="d-flex h-100">
+                <input type="text" id="searchInput">
+                <button onclick="window.location.href = 'ketquatimkiem.html';">Tìm</button>
+            </div>
         </div>
     </nav>
     <!-- endmenunavbar -->
@@ -273,8 +275,22 @@
 
                 <div class="right-col col">
                     <h4 class="right-col-title text-uppercase">phương thức thanh toán</h4>
-                    <div class="payment-methods">
-                        <img src="./pic/icons/payment.png" alt="PAYMENTS">
+                    <div class="payment-methods d-flex flex-wrap justify-content-between    ">
+                        <div class="payment-method">
+                            <img src="./pic/icons/card.png" class="w-100 h-100" alt="PAYMENTS">
+                        </div>
+                        <div class="payment-method">
+                            <img src="./pic/icons/visa.png" class="w-100 h-100" alt="PAYMENTS">
+                        </div>
+                        <div class="payment-method">
+                            <img src="./pic/icons/momo.png" class="w-100 h-100" alt="PAYMENTS">
+                        </div>
+                        <div class="payment-method vnpay">
+                            <img src="./pic/icons/vnpay.png" class="w-100 h-100" alt="PAYMENTS">
+                        </div>
+                        <div class="payment-method">
+                            <img src="./pic/icons/airpay.png" class="w-100 h-100" alt="PAYMENTS">
+                        </div>
                     </div>
                 </div>
             </div>
