@@ -78,7 +78,7 @@ a {
     margin: 0 10px !important;
 }
 .carousel-item img {
-    height: 870px;
+    height: 700px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -232,6 +232,10 @@ a {
 .new-arrival .product-left, 
 .new-arrival .product-right {
     padding: 40px;
+}
+
+.new-arrival .new-arrival-product-container .col-4 a:hover {
+    color: #F2886B;
 }
 
 .hot-sale {

@@ -174,12 +174,80 @@
     border: none;
     width: 40%;
     text-align: center;
+    font-weight: 600;
+}
+
+.button-all {
+    display: block;
+    position: relative;
+    color: white;
+    background: transparent !important;
+    padding: 10px;
+    border: 1px solid #F2886B !important;
+    text-transform: uppercase;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+    overflow: hidden;
+    transition: color 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86), border 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    z-index: 1;
+}
+
+.button-all > .button-span {
+    z-index: 5;
+    position: relative;
+    transition: color 350ms ease;
+}
+
+.button-all:hover .button-span {
+    color: black !important;
+}
+
+.button-all::after, .button-all::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: #F2886B !important;
+    z-index: -1;
+}
+
+.button-all::before {
+    transition: transform 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86), -webkit-transform 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    transform: scale(1, 1);
+    transform-origin: left center;
+}
+
+.button-all:hover:before {
+    transition: transform 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86), -webkit-transform 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    z-index: -1;
+    transform: scale(1, 1);
+    background: #F2886B !important;
+    transition: transform 350ms ease;
+}
+
+.button-all::after {
+    z-index: 0;
+    transform: translateX(100%);
+    transition: none;
+    transition: transform 350ms ease;
+}
+
+.button-all:hover:before{
+    opacity: 1;
+    transform-origin: right center;
+    transform: scale(0, 1);
+    transition: transform 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86), -webkit-transform 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 
 .add-cart-btn {
     border: 1px solid #949393 !important;
     padding: 10px 5px;
     background-color: #fff;
+    color: #2e2e2e;
 }
 
 .checkout-btn {
@@ -282,5 +350,34 @@
 
     .seen-product .list-seen-product .product-item:nth-child(3) {
         display: none;
+    }
+
+    .product-item {
+        height: 360px;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .seen-product-title {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .product-size-contain .size-product-icons {
+        width: 60%;
+    }
+
+    .product-color-contain .color-product {
+        width: 60%;
+    }
+
+    .product-detail-container {
+        margin: 20px 20px;
+    }
+
+    .product-item {
+        height: 200px;
     }
 }
