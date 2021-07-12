@@ -44,28 +44,18 @@
                     </a>
                 </li>
             </ul>
-            <label for="nav-mobile-input" class="navbar-btn">
+            <button for="nav-mobile-input" class="navbar-btn openbtn" onclick="openNav()">
                 <i class="fas fa-bars"></i>
-            </label>
+            </button>
 
             <input type="checkbox" name="" class="nav-input" id="nav-mobile-input">
             <label for="nav-mobile-input" class="nav-overlay"></label>
 
-            <div class="nav-mobile">
-                <label for="nav-mobile-input" class="nav__mobile-close">
-                    <i class="fas fa-times"></i>
-                </label>
-                <ul class="nav-mobile-list">
-                    <li>
-                        <a href="./balo.html" class="nav-mobile-link">BALO</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-mobile-link">TÚI XÁCH</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-mobile-link">VÍ TIỀN</a>
-                    </li>
-                </ul>
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="#">Balo</a>
+                <a href="#">Túi xách</a>
+                <a href="#">Ví</a>
             </div>
         </div>
         <div class="searchBar" id="searchBar">

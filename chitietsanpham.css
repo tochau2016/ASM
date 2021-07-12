@@ -187,6 +187,24 @@
     background-color: #F2886B;
     padding: 11px 5px;
     color: #fff;
+    border: 1px solid #F2886B !important;
+}
+
+.detail-col .product-buttons-contain .add-cart-btn:hover {
+    background-color: #F2886B;
+    border: 1px solid #F2886B !important;
+    color: #fff;
+}
+
+.detail-col .product-buttons-contain .checkout-btn:hover {
+    background-color: #fff;
+    border: 1px solid #F2886B !important;
+    color: #F2886B;
+}
+
+.quantity-product span button:hover {
+    background-color: #FF5D64 !important;
+    color: #fff !important;
 }
 
 .detail-col .bottom-detail {
@@ -209,6 +227,14 @@
 
 .seen-product .title-line {
     display: none;
+}
+
+.mini-images .mini-image-item:hover {
+    cursor: pointer;
+}
+
+.product-color-contain .color-product .color:hover {
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 1024px) {

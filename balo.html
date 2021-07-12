@@ -45,28 +45,18 @@
                     </a>
                 </li>
             </ul>
-            <label for="nav-mobile-input" class="navbar-btn">
+            <button for="nav-mobile-input" class="navbar-btn openbtn" onclick="openNav()">
                 <i class="fas fa-bars"></i>
-            </label>
+            </button>
 
             <input type="checkbox" name="" class="nav-input" id="nav-mobile-input">
             <label for="nav-mobile-input" class="nav-overlay"></label>
 
-            <div class="nav-mobile">
-                <label for="nav-mobile-input" class="nav__mobile-close">
-                    <i class="fas fa-times"></i>
-                </label>
-                <ul class="nav-mobile-list">
-                    <li>
-                        <a href="./balo.html" class="nav-mobile-link">BALO</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-mobile-link">TÚI XÁCH</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-mobile-link">VÍ TIỀN</a>
-                    </li>
-                </ul>
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="#">Balo</a>
+                <a href="#">Túi xách</a>
+                <a href="#">Ví</a>
             </div>
         </div>
         <div class="searchBar" id="searchBar">
@@ -151,34 +141,36 @@
                     <h4 style="color: #000000; font-size: 1.2rem; font-weight: 600;">KÍCH THƯỚC</h4>
                     <div class="form-check-container">
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault11">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault1"
+                                id="flexRadioDefault11">
                             <label class="form-check-label" for="flexRadioDefault1">
                                 CDE
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault22"
-                                checked>
+                            <input class="form-check-input" type="radio" name="flexRadioDefault1"
+                                id="flexRadioDefault22" checked>
                             <label class="form-check-label" for="flexRadioDefault2">
                                 ABC
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault33">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault1"
+                                id="flexRadioDefault33">
                             <label class="form-check-label" for="flexRadioDefault33">
                                 CDE
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault44"
-                                checked>
+                            <input class="form-check-input" type="radio" name="flexRadioDefault1"
+                                id="flexRadioDefault44" checked>
                             <label class="form-check-label" for="flexRadioDefault44">
                                 ABC
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault55"
-                                checked>
+                            <input class="form-check-input" type="radio" name="flexRadioDefault1"
+                                id="flexRadioDefault55" checked>
                             <label class="form-check-label" for="flexRadioDefault55">
                                 ABC
                             </label>
@@ -213,121 +205,139 @@
             <div class="product-col col-lg-10 col-md-8 col-sm-6 ps-5">
                 <div class="product-container d-flex flex-wrap justify-content-center">
                     <div class="product-item">
-                        <div class="img-contain w-100 h-100">
-                            <img src="./pic/bst/túi/111.jpg" alt="IMG PRODUCT" class="w-100 h-100">
-                        </div>
-                        <div class="product-content d-flex justify-content-around align-items-center w-100">
-                            <button class="wish-list-btn">
-                                <i class="fas fa-heart"></i>
-                            </button>
-                            <button class="add-product-btn">
-                                <i class="fas fa-shopping-cart"></i>
-                            </button>
-                        </div>
+                        <a href="./chitietsanpham.html">
+                            <div class="img-contain w-100 h-100">
+                                <img src="./pic/bst/túi/111.jpg" alt="IMG PRODUCT" class="w-100 h-100">
+                            </div>
+                            <div class="product-content d-flex justify-content-around align-items-center w-100">
+                                <button class="wish-list-btn">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button class="add-product-btn">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </a>
                     </div>
                     <div class="product-item">
-                        <div class="img-contain w-100 h-100">
-                            <img src="./pic/bst/túi/111.jpg" alt="IMG PRODUCT" class="w-100 h-100">
-                        </div>
-                        <div class="product-content d-flex justify-content-around align-items-center w-100">
-                            <button class="wish-list-btn">
-                                <i class="fas fa-heart"></i>
-                            </button>
-                            <button class="add-product-btn">
-                                <i class="fas fa-shopping-cart"></i>
-                            </button>
-                        </div>
+                        <a href="./chitietsanpham.html">
+                            <div class="img-contain w-100 h-100">
+                                <img src="./pic/bst/túi/240.jpg" alt="IMG PRODUCT" class="w-100 h-100">
+                            </div>
+                            <div class="product-content d-flex justify-content-around align-items-center w-100">
+                                <button class="wish-list-btn">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button class="add-product-btn">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </a>
                     </div>
                     <div class="product-item">
-                        <div class="img-contain w-100 h-100">
-                            <img src="./pic/bst/túi/111.jpg" alt="IMG PRODUCT" class="w-100 h-100">
-                        </div>
-                        <div class="product-content d-flex justify-content-around align-items-center w-100">
-                            <button class="wish-list-btn">
-                                <i class="fas fa-heart"></i>
-                            </button>
-                            <button class="add-product-btn">
-                                <i class="fas fa-shopping-cart"></i>
-                            </button>
-                        </div>
+                        <a href="./chitietsanpham.html">
+                            <div class="img-contain w-100 h-100">
+                                <img src="./pic/bst/túi/216.jpg" alt="IMG PRODUCT" class="w-100 h-100">
+                            </div>
+                            <div class="product-content d-flex justify-content-around align-items-center w-100">
+                                <button class="wish-list-btn">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button class="add-product-btn">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </a>
                     </div>
                     <div class="product-item">
-                        <div class="img-contain w-100 h-100">
-                            <img src="./pic/bst/túi/111.jpg" alt="IMG PRODUCT" class="w-100 h-100">
-                        </div>
-                        <div class="product-content d-flex justify-content-around align-items-center w-100">
-                            <button class="wish-list-btn">
-                                <i class="fas fa-heart"></i>
-                            </button>
-                            <button class="add-product-btn">
-                                <i class="fas fa-shopping-cart"></i>
-                            </button>
-                        </div>
+                        <a href="./chitietsanpham.html">
+                            <div class="img-contain w-100 h-100">
+                                <img src="./pic/bst/túi/129.jpg" alt="IMG PRODUCT" class="w-100 h-100">
+                            </div>
+                            <div class="product-content d-flex justify-content-around align-items-center w-100">
+                                <button class="wish-list-btn">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button class="add-product-btn">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </a>
                     </div>
                     <div class="product-item">
-                        <div class="img-contain w-100 h-100">
-                            <img src="./pic/bst/túi/111.jpg" alt="IMG PRODUCT" class="w-100 h-100">
-                        </div>
-                        <div class="product-content d-flex justify-content-around align-items-center w-100">
-                            <button class="wish-list-btn">
-                                <i class="fas fa-heart"></i>
-                            </button>
-                            <button class="add-product-btn">
-                                <i class="fas fa-shopping-cart"></i>
-                            </button>
-                        </div>
+                        <a href="./chitietsanpham.html">
+                            <div class="img-contain w-100 h-100">
+                                <img src="./pic/bst/túi/134.jpg" alt="IMG PRODUCT" class="w-100 h-100">
+                            </div>
+                            <div class="product-content d-flex justify-content-around align-items-center w-100">
+                                <button class="wish-list-btn">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button class="add-product-btn">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </a>
                     </div>
                     <div class="product-item">
-                        <div class="img-contain w-100 h-100">
-                            <img src="./pic/bst/túi/111.jpg" alt="IMG PRODUCT" class="w-100 h-100">
-                        </div>
-                        <div class="product-content d-flex justify-content-around align-items-center w-100">
-                            <button class="wish-list-btn">
-                                <i class="fas fa-heart"></i>
-                            </button>
-                            <button class="add-product-btn">
-                                <i class="fas fa-shopping-cart"></i>
-                            </button>
-                        </div>
+                        <a href="./chitietsanpham.html">
+                            <div class="img-contain w-100 h-100">
+                                <img src="./pic/bst/túi/156.jpg" alt="IMG PRODUCT" class="w-100 h-100">
+                            </div>
+                            <div class="product-content d-flex justify-content-around align-items-center w-100">
+                                <button class="wish-list-btn">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button class="add-product-btn">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </a>
                     </div>
                     <div class="product-item">
-                        <div class="img-contain w-100 h-100">
-                            <img src="./pic/bst/túi/111.jpg" alt="IMG PRODUCT" class="w-100 h-100">
-                        </div>
-                        <div class="product-content d-flex justify-content-around align-items-center w-100">
-                            <button class="wish-list-btn">
-                                <i class="fas fa-heart"></i>
-                            </button>
-                            <button class="add-product-btn">
-                                <i class="fas fa-shopping-cart"></i>
-                            </button>
-                        </div>
+                        <a href="./chitietsanpham.html">
+                            <div class="img-contain w-100 h-100">
+                                <img src="./pic/bst/túi/175.jpg" alt="IMG PRODUCT" class="w-100 h-100">
+                            </div>
+                            <div class="product-content d-flex justify-content-around align-items-center w-100">
+                                <button class="wish-list-btn">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button class="add-product-btn">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </a>
                     </div>
                     <div class="product-item">
-                        <div class="img-contain w-100 h-100">
-                            <img src="./pic/bst/túi/111.jpg" alt="IMG PRODUCT" class="w-100 h-100">
-                        </div>
-                        <div class="product-content d-flex justify-content-around align-items-center w-100">
-                            <button class="wish-list-btn">
-                                <i class="fas fa-heart"></i>
-                            </button>
-                            <button class="add-product-btn">
-                                <i class="fas fa-shopping-cart"></i>
-                            </button>
-                        </div>
+                        <a href="./chitietsanpham.html">
+                            <div class="img-contain w-100 h-100">
+                                <img src="./pic/bst/balo/208.jpg" alt="IMG PRODUCT" class="w-100 h-100">
+                            </div>
+                            <div class="product-content d-flex justify-content-around align-items-center w-100">
+                                <button class="wish-list-btn">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button class="add-product-btn">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </a>
                     </div>
                     <div class="product-item">
-                        <div class="img-contain w-100 h-100">
-                            <img src="./pic/bst/túi/111.jpg" alt="IMG PRODUCT" class="w-100 h-100">
-                        </div>
-                        <div class="product-content d-flex justify-content-around align-items-center w-100">
-                            <button class="wish-list-btn">
-                                <i class="fas fa-heart"></i>
-                            </button>
-                            <button class="add-product-btn">
-                                <i class="fas fa-shopping-cart"></i>
-                            </button>
-                        </div>
+                        <a href="./chitietsanpham.html">
+                            <div class="img-contain w-100 h-100">
+                                <img src="./pic/bst/balo/91.jpg" alt="IMG PRODUCT" class="w-100 h-100">
+                            </div>
+                            <div class="product-content d-flex justify-content-around align-items-center w-100">
+                                <button class="wish-list-btn">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button class="add-product-btn">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <!-- End Product List -->
@@ -370,39 +380,39 @@
             <div class="list-seen-product d-flex align-items-center ps-4 pt-4 pb-4">
                 <div class="product-item">
                     <div class="img-contain w-100 h-100">
-                        <img src="./pic/bst/túi/111.jpg" alt="IMG PRODUCT" class="w-100 h-100">
+                        <img src="./pic/bst/balo/74.jpg" alt="IMG PRODUCT" class="w-100 h-100">
                     </div>
                     <div class="product-content d-flex justify-content-around align-items-center w-100">
                         <button class="wish-list-btn">
                             <i class="fas fa-heart"></i>
                         </button>
-                        <button class="add-product-btn">
+                        <button class="add-product-btn" onclick="window.location.href = 'checkout.html';">
                             <i class="fas fa-shopping-cart"></i>
                         </button>
                     </div>
                 </div>
                 <div class="product-item">
                     <div class="img-contain w-100 h-100">
-                        <img src="./pic/bst/túi/111.jpg" alt="IMG PRODUCT" class="w-100 h-100">
+                        <img src="./pic/bst/balo/86.jpg" alt="IMG PRODUCT" class="w-100 h-100">
                     </div>
                     <div class="product-content d-flex justify-content-around align-items-center w-100">
                         <button class="wish-list-btn">
                             <i class="fas fa-heart"></i>
                         </button>
-                        <button class="add-product-btn">
+                        <button class="add-product-btn" onclick="window.location.href = 'checkout.html';">
                             <i class="fas fa-shopping-cart"></i>
                         </button>
                     </div>
                 </div>
                 <div class="product-item">
                     <div class="img-contain w-100 h-100">
-                        <img src="./pic/bst/túi/111.jpg" alt="IMG PRODUCT" class="w-100 h-100">
+                        <img src="./pic/bst/balo/154.jpg" alt="IMG PRODUCT" class="w-100 h-100">
                     </div>
                     <div class="product-content d-flex justify-content-around align-items-center w-100">
                         <button class="wish-list-btn">
                             <i class="fas fa-heart"></i>
                         </button>
-                        <button class="add-product-btn">
+                        <button class="add-product-btn" onclick="window.location.href = 'checkout.html';">
                             <i class="fas fa-shopping-cart"></i>
                         </button>
                     </div>

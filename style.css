@@ -203,7 +203,7 @@ a {
 .img-container-best {
     width: 100%;
     height: 230px;
-    padding: 10px;
+    padding: 5px;
 }
 
 .img-container-best img {
@@ -340,6 +340,10 @@ a {
     border-bottom-right-radius: 5px;
 }
 
+.information .send-email-btn:hover {
+    background-color: #F2886B;
+}
+
 .send-email-btn img {
     height: 100%;
     width: 50%;
@@ -472,9 +476,10 @@ a {
     max-width: 100%;
     background-color: #fff;
     z-index: 9999;
-    transform: translateX(100%);
+    /* transform: translateX(100%); */
     opacity: 0;
     transition: all linear 0.2s;
+    display: none !important;
 }
 
 .nav-mobile-list {
@@ -512,9 +517,84 @@ a {
     opacity: 1;
 }
 
+.footer-container .middle-col .icons-footer .fa-facebook-square:hover {
+    cursor: pointer;
+    color: rgb(57, 76, 171);
+}
+
+.footer-container .middle-col .icons-footer .fa-instagram:hover {
+	background: -webkit-gradient(linear, left top, left bottom, from(#f00), to(#333));
+    background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    right: 0;
+    background-color: #f3f3f3;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+
+  .sidebar {
+      display: none;
+  }
+  
 @media only screen and (max-width: 1395px) {
+    .nav-mobile {
+        display: block !important;
+    }
+
     .best-seller-product .product-left {
-        padding-right: 2.2rem !important;
+        padding-right: 2rem !important;
+    }
+
+    .navbar-btn {
+        background-color: transparent;
+    }
+
+    .sidebar {
+        display: block;
     }
 }
 
@@ -533,10 +613,6 @@ a {
 
     .navbar-btn {
         display: block;
-        /* height: 100%;
-        align-items: center; */
-        margin-top: 4px;
-        
     }
 
     .icon-navbar {

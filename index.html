@@ -46,28 +46,18 @@
                     </a>
                 </li>
             </ul>
-            <label for="nav-mobile-input" class="navbar-btn">
+            <button for="nav-mobile-input" class="navbar-btn openbtn" onclick="openNav()">
                 <i class="fas fa-bars"></i>
-            </label>
+            </button>
 
             <input type="checkbox" name="" class="nav-input" id="nav-mobile-input">
             <label for="nav-mobile-input" class="nav-overlay"></label>
 
-            <div class="nav-mobile">
-                <label for="nav-mobile-input" class="nav__mobile-close">
-                    <i class="fas fa-times"></i>
-                </label>
-                <ul class="nav-mobile-list">
-                    <li>
-                        <a href="./balo.html" class="nav-mobile-link">BALO</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-mobile-link">TÚI XÁCH</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-mobile-link">VÍ TIỀN</a>
-                    </li>
-                </ul>
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="#">Balo</a>
+                <a href="#">Túi xách</a>
+                <a href="#">Ví</a>
             </div>
         </div>
         <div class="searchBar" id="searchBar">
@@ -151,21 +141,21 @@
     <!-- Collection -->
     <div class="d-flex align-items-center justify-content-center collection-banner text-center">
         <div class="row collection-container">
-            <div class="collection-img-container col py-3 ps-0">
+            <div class="collection-img-container col py-3 ps-0" onclick="window.location.href = 'collection.html';">
                 <img src="./pic/bst/balo/220.png" alt="COLLECTION IMG">
                 <div class="button-container">
                     <button onclick="window.location.href = 'balo.html';">Mua Ngay</button>
                 </div>
                 <h1>Pink Collection</h1>
             </div>
-            <div class="collection-img-container col py-3">
+            <div class="collection-img-container col py-3" onclick="window.location.href = 'collection.html';">
                 <img src="./pic/bst/balo/225.jpg" alt="COLLECTION IMG">
                 <div class="button-container">
                     <button onclick="window.location.href = 'balo.html';">Mua Ngay</button>
                 </div>
                 <h1>Blue Collection</h1>
             </div>
-            <div class="collection-img-container col py-3 pe-0">
+            <div class="collection-img-container col py-3 pe-0" onclick="window.location.href = 'collection.html';">
                 <img src="./pic/bst/balo/259.png" alt="COLLECTION IMG">
                 <div class="button-container">
                     <button onclick="window.location.href = 'balo.html';">Mua Ngay</button>
@@ -186,31 +176,45 @@
         <div class="best-seller-product d-flex">
             <div class="left-col product-left col h-100">
                 <div class="best-seller-img-left-container">
-                    <img src="./pic/bst/balo/219.jpg" alt="BEST SELLER PRODUCT">
+                    <a href="./chitietsanpham.html">
+                        <img src="./pic/bst/balo/219.jpg" alt="BEST SELLER PRODUCT">
+                    </a>
                 </div>
             </div>
             <div class="middle-col product-middle col h-100">
                 <div class="best-seller-img-middle-container d-flex">
                     <div class="col-6 d-block">
                         <div class="img-container-best pt-0">
-                            <img src="./pic/bst/túi/170.jpg" alt="BEST SELLER PRODUCT">
+                            <a href="./chitietsanpham.html">
+                                <img src="./pic/bst/túi/170.jpg" alt="BEST SELLER PRODUCT">
+                            </a>
                         </div>
                         <div class="img-container-best">
-                            <img src="./pic/bst/túi/193.jpg" alt="BEST SELLER PRODUCT">
+                            <a href="./chitietsanpham.html">
+                                <img src="./pic/bst/túi/193.jpg" alt="BEST SELLER PRODUCT">
+                            </a>
                         </div>
                         <div class="img-container-best pb-0">
-                            <img src="./pic/bst/túi/222.png" alt="BEST SELLER PRODUCT">
+                            <a href="./chitietsanpham.html">
+                                <img src="./pic/bst/túi/222.png" alt="BEST SELLER PRODUCT">
+                            </a>
                         </div>
                     </div>
                     <div class="col-6 d-block">
                         <div class="img-container-best pt-0">
-                            <img src="./pic/bst/túi/118.jpg" alt="BEST SELLER PRODUCT">
+                            <a href="./chitietsanpham.html">
+                                <img src="./pic/bst/túi/118.jpg" alt="BEST SELLER PRODUCT">
+                            </a>
                         </div>
                         <div class="img-container-best">
-                            <img src="./pic/bst/balo/106.jpg" alt="BEST SELLER PRODUCT">
+                            <a href="./chitietsanpham.html">
+                                <img src="./pic/bst/balo/106.jpg" alt="BEST SELLER PRODUCT">
+                            </a>
                         </div>
                         <div class="img-container-best pb-0">
-                            <img src="./pic/bst/balo/213.jpg" alt="BEST SELLER PRODUCT">
+                            <a href="./chitietsanpham.html">
+                                <img src="./pic/bst/balo/213.jpg" alt="BEST SELLER PRODUCT">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -219,12 +223,16 @@
                 <div class="best-seller-img-right">
                     <div class="top-img-container">
                         <div class="img-container-best-right d-flex justify-content-center">
-                            <img src="./pic/bst/túi/100.jpg" alt="BEST SELLER PRODUCT" class="h-100 pb-2">
+                            <a href="./chitietsanpham.html">
+                                <img src="./pic/bst/túi/100.jpg" alt="BEST SELLER PRODUCT" class="h-100 pb-2">
+                                <a href="./chitietsanpham.html">
                         </div>
                     </div>
                     <div class="bottom-img-container">
                         <div class="img-container-best-right d-flex justify-content-center">
-                            <img src="./pic/bst/túi/170.jpg" alt="BEST SELLER PRODUCT" class="h-100 pt-2">
+                            <a href="./chitietsanpham.html">
+                                <img src="./pic/bst/túi/170.jpg" alt="BEST SELLER PRODUCT" class="h-100 pt-2">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -259,7 +267,7 @@
             </div>
             <div class="col-4 product-right product-item h-100">
                 <div class="img-container-arrival d-flex justify-content-center h-100">
-                    <img src="./pic/bst/248.png" alt="NEW ARRIVAL IMG" class="h-100">
+                    <img src="./pic/bst/254.png" alt="NEW ARRIVAL IMG" class="h-100">
                 </div>
                 <div class="title-item-arrival">
                     <h3 class="text-center pt-3">Hot Trend</h3>
@@ -303,27 +311,17 @@
         </div>
         <div class="home-slick-img-container h-100">
             <a href="./chitietsanpham.html">
-                <img src="./pic/bst/balo/150.jpg" alt="SLICK IMG">
+                <img src="./pic/bst/túi/79.jpg" alt="SLICK IMG">
             </a>
         </div>
         <div class="home-slick-img-container h-100">
             <a href="./chitietsanpham.html">
-                <img src="./pic/bst/balo/150.jpg" alt="SLICK IMG">
+                <img src="./pic/bst/túi/107.jpg" alt="SLICK IMG">
             </a>
         </div>
         <div class="home-slick-img-container h-100">
             <a href="./chitietsanpham.html">
-                <img src="./pic/bst/balo/150.jpg" alt="SLICK IMG">
-            </a>
-        </div>
-        <div class="home-slick-img-container h-100">
-            <a href="./chitietsanpham.html">
-                <img src="./pic/bst/balo/150.jpg" alt="SLICK IMG">
-            </a>
-        </div>
-        <div class="home-slick-img-container h-100">
-            <a href="./chitietsanpham.html">
-                <img src="./pic/bst/balo/150.jpg" alt="SLICK IMG">
+                <img src="./pic/bst/túi/134.jpg" alt="SLICK IMG">
             </a>
         </div>
     </div>

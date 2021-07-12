@@ -45,28 +45,18 @@
                     </a>
                 </li>
             </ul>
-            <label for="nav-mobile-input" class="navbar-btn">
+            <button for="nav-mobile-input" class="navbar-btn openbtn" onclick="openNav()">
                 <i class="fas fa-bars"></i>
-            </label>
+            </button>
 
             <input type="checkbox" name="" class="nav-input" id="nav-mobile-input">
             <label for="nav-mobile-input" class="nav-overlay"></label>
 
-            <div class="nav-mobile">
-                <label for="nav-mobile-input" class="nav__mobile-close">
-                    <i class="fas fa-times"></i>
-                </label>
-                <ul class="nav-mobile-list">
-                    <li>
-                        <a href="./balo.html" class="nav-mobile-link">BALO</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-mobile-link">TÚI XÁCH</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-mobile-link">VÍ TIỀN</a>
-                    </li>
-                </ul>
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="#">Balo</a>
+                <a href="#">Túi xách</a>
+                <a href="#">Ví</a>
             </div>
         </div>
         <div class="searchBar" id="searchBar">
@@ -123,7 +113,7 @@
                         <img src="./pic/bst/túi/111.jpg" class="w-100 h-100" alt="COLLECTION IMAGE">
                     </div>
                     <div class="collection-item w-100 p-2 h-50">
-                        <img src="./pic/bst/túi/111.jpg" class="w-100 h-100" alt="COLLECTION IMAGE">
+                        <img src="./pic/bst/balo/213.jpg" class="w-100 h-100" alt="COLLECTION IMAGE">
                     </div>
                 </div>
                 <div class="middle-col collection-col h-100">
@@ -141,10 +131,10 @@
                 </div>
                 <div class="right-col collection-col h-100">
                     <div class="collection-item w-100 p-2 h-50">
-                        <img src="./pic/bst/túi/111.jpg" class="w-100 h-100" alt="COLLECTION IMAGE">
+                        <img src="./pic/bst/balo/188.jpg" class="w-100 h-100" alt="COLLECTION IMAGE">
                     </div>
                     <div class="collection-item w-100 p-2 h-50">
-                        <img src="./pic/bst/túi/111.jpg" class="w-100 h-100" alt="COLLECTION IMAGE">
+                        <img src="./pic/bst/balo/95.jpg" class="w-100 h-100" alt="COLLECTION IMAGE">
                     </div>
                 </div>
             </div>
@@ -154,10 +144,10 @@
                 </div>
                 <div class="right-col bottom-collection-col h-100">
                     <div class="collection-item w-100 p-2 h-50">
-                        <img src="./pic/bst/túi/111.jpg" class="w-100 h-100" alt="COLLECTION IMAGE">
+                        <img src="./pic/bst/túi/84.jpg" class="w-100 h-100" alt="COLLECTION IMAGE">
                     </div>
                     <div class="collection-item w-100 p-2 h-50">
-                        <img src="./pic/bst/túi/111.jpg" class="w-100 h-100" alt="COLLECTION IMAGE">
+                        <img src="./pic/bst/túi/100.jpg" class="w-100 h-100" alt="COLLECTION IMAGE">
                     </div>
                 </div>
             </div>
@@ -177,39 +167,39 @@
             <div class="list-seen-product d-flex align-items-center ps-4 pt-4 pb-4">
                 <div class="product-item">
                     <div class="img-contain w-100 h-100">
-                        <img src="./pic/bst/túi/111.jpg" alt="IMG PRODUCT" class="w-100 h-100">
+                        <img src="./pic/bst/balo/74.jpg" alt="IMG PRODUCT" class="w-100 h-100">
                     </div>
                     <div class="product-content d-flex justify-content-around align-items-center w-100">
                         <button class="wish-list-btn">
                             <i class="fas fa-heart"></i>
                         </button>
-                        <button class="add-product-btn">
+                        <button class="add-product-btn" onclick="window.location.href = 'checkout.html';">
                             <i class="fas fa-shopping-cart"></i>
                         </button>
                     </div>
                 </div>
                 <div class="product-item">
                     <div class="img-contain w-100 h-100">
-                        <img src="./pic/bst/túi/111.jpg" alt="IMG PRODUCT" class="w-100 h-100">
+                        <img src="./pic/bst/balo/86.jpg" alt="IMG PRODUCT" class="w-100 h-100">
                     </div>
                     <div class="product-content d-flex justify-content-around align-items-center w-100">
                         <button class="wish-list-btn">
                             <i class="fas fa-heart"></i>
                         </button>
-                        <button class="add-product-btn">
+                        <button class="add-product-btn" onclick="window.location.href = 'checkout.html';">
                             <i class="fas fa-shopping-cart"></i>
                         </button>
                     </div>
                 </div>
                 <div class="product-item">
                     <div class="img-contain w-100 h-100">
-                        <img src="./pic/bst/túi/111.jpg" alt="IMG PRODUCT" class="w-100 h-100">
+                        <img src="./pic/bst/balo/154.jpg" alt="IMG PRODUCT" class="w-100 h-100">
                     </div>
                     <div class="product-content d-flex justify-content-around align-items-center w-100">
                         <button class="wish-list-btn">
                             <i class="fas fa-heart"></i>
                         </button>
-                        <button class="add-product-btn">
+                        <button class="add-product-btn" onclick="window.location.href = 'checkout.html';">
                             <i class="fas fa-shopping-cart"></i>
                         </button>
                     </div>
