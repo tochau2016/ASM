@@ -51,14 +51,11 @@
                 <i class="fas fa-bars"></i>
             </button>
 
-            <input type="checkbox" name="" class="nav-input" id="nav-mobile-input">
-            <label for="nav-mobile-input" class="nav-overlay"></label>
-
             <div id="mySidebar" class="sidebar">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-                <a href="#">Balo</a>
-                <a href="#">Túi xách</a>
-                <a href="#">Ví</a>
+                <a href="./balo.html">Balo</a>
+                <a href="./balo.html">Túi xách</a>
+                <a href="./balo.html">Ví</a>
             </div>
         </div>
         <div class="searchBar" id="searchBar">
@@ -108,96 +105,156 @@
             <h3 class="faq-title text-center mt-5">CÂU HỎI THƯỜNG GẶP</h3>
             <div class="ship-rules">
                 <h3 class="ship-rules-title">GIAO HÀNG - VẬN CHUYỂN</h3>
-                <div class="qa">
-                    <h5>1. Nếu tôi đặt hàng online từ Website Circle, tôi có được giao hàng tận nơi không?</h5>
-                    <div class="qa-ans">
-                        <p>
-                            Nếu đặt hàng Circle online, bạn sẽ được đơn vị vận chuyển của Juno giao hàng trực tiếp tận
-                            nơi
-                        </p>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                1. Nếu tôi đặt hàng online từ website Circle, tôi có được giao hàng tận nơi không?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Nếu đặt hàng Circle online bạn sẽ được đơn vị vận chuyển của Juno
+                                giao hàng trực tiếp tận nơi.
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="qa">
-                    <h5>2. Tôi phải trả phí vận chuyển tận nơi như thế nào?</h5>
-                    <div class="qa-ans">
-                        <p>
-                            Khách hàng sẽ được miễn phí 100% cước vận chuyển trong nước với đơn hàng trị giá trên
-                            300.000vnd
-                        </p>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                2. Tôi phải trả phí vận chuyển tận nơi như thế nào?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Khách hàng sẽ được miễn phí 100% cước vận chuyển trong nước với đơn hàng trị giá trên
+                                300.000vnd.
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="qa">
-                    <h5>3. Tôi ở Tỉnh, tôi sẽ nhận hàng trong thời gian bao lâu?</h5>
-                    <div class="qa-ans">
-                        <p>
-                            Đối với khách hàng ở tỉnh, bạn sẽ được nhận hàng trong vòng 4 - 5 ngày (tính theo ngày làm
-                            việc)
-                            kể từ ngày xác nhận đơn hàng
-                        </p>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                3. Tôi ở Tỉnh, tôi sẽ nhận hàng trong thời gian bao lâu?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Đối với Khách hàng ở tỉnh, bạn sẽ được nhận hàng trong vòng 4 - 5 ngày (tính
+                                theo ngày làm việc) kể từ ngày xác nhận đơn hàng.
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="qa">
-                    <h5>4. Nếu tôi trả lại sản phẩm, ai sẽ là người chịu phí vận chuyển?</h5>
-                    <div class="qa-ans">
-                        <p>
-                            Trong trường hợp trả hàng Online. Khách hàng sẽ chịu phí vận chuyển khi chuyển hoàn sản phẩm
-                            về
-                            cho CIRCLE.VN về 2 địa chỉ sau:
-
-                        <p>Khách hàng gửi SP về:</p>
-                        <p>
-                            Kho online CIRCLE tại HCM: 162/2 Quốc lộ 1A, phường Thạnh Xuân, Q12, Tp.HCM. <br>
-                            Người nhận CIRCLE : 0983278794
-                        </p>
-                        </p>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                4. Nếu Tôi trả lại sản phẩm ai sẽ là người chịu phí vận chuyển?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>
+                                    Trong trường hợp trả hàng Online, Khách hàng sẽ chịu phí vận chuyển khi chuyển
+                                    hoàn sản phẩm về cho CIRCLE về 2 địa chỉ sau:
+                                </p>
+                                <p>Khách hàng gửi SP về:</p>
+                                <p>
+                                    Online CIRCLE tại HCM: 162/2 Quốc lộ 1A, phường Thạnh Xuân, Q12, Tp.HCM.
+                                    Người nhận CIRCLE : 0983278794
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="to-return">
                 <h3 class="ship-rules-title">HOÀN TRẢ - ĐỔI SẢN PHẨM</h3>
-                <div class="qa">
-                    <h5>1. Quy đinh hoàn trả và đổi sản phẩm của CIRCLE như thế nào?</h5>
-                    <div class="qa-ans">
-                        <p>
-                            Khách hàng vui lòng tham khảo chính sách đổi trả sản phẩm của CIRCLE tại đây,
-                            để được cung cấp thông tin đầy đủ và chi tiết nhất.
-                        </p>
-                        <p>
-                            Lưu ý: Đối với dòng sản phẩm túi và giày điều kiện đổi trả được thực hiện trong
-                            vòng 30 ngày kể từ ngày nhận hàng và hàng hoá đảm bảo còn giữ nguyên tem
-                            nhãn sản phẩm. (chưa qua sử dụng)
-                        </p>
+                <div class="accordion" id="accordionExample1">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne1">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
+                                1. Quy đinh hoàn trả và đổi sản phẩm của CIRCLE như thế nào?
+                            </button>
+                        </h2>
+                        <div id="collapseOne1" class="accordion-collapse collapse show" aria-labelledby="headingOne1"
+                            data-bs-parent="#accordionExample1">
+                            <div class="accordion-body">
+                                <p>
+                                    Khách hàng vui lòng tham khảo chính sách đổi trả sản phẩm của CIRCLE tại đây,
+                                    để được cung cấp thông tin đầy đủ và chi tiết nhất.
+                                </p>
+                                <p>
+                                    Lưu ý: Đối với dòng sản phẩm túi và giày điều kiện đổi trả được thực hiện trong
+                                    vòng 30 ngày kể từ ngày nhận hàng và hàng hoá đảm bảo còn giữ nguyên tem
+                                    nhãn sản phẩm. (chưa qua sử dụng)
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="qa">
-                    <h5>2. Tôi sẽ nhận lại sản phẩm đổi trong thời gian bao lâu?</h5>
-                    <div class="qa-ans">
-                        <p>
-                            Khách hàng vui lòng tham khảo trang thanh toán giao nhận tại đây, để được
-                            cung cấp thông tin đầy đủ và chi tiết nhất.
-                        </p>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
+                                2. Tôi sẽ nhận lại sản phẩm đổi trong thời gian bao lâu?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo2" class="accordion-collapse collapse" aria-labelledby="headingTwo2"
+                            data-bs-parent="#accordionExample1">
+                            <div class="accordion-body">
+                                <p>
+                                    Khách hàng vui lòng tham khảo trang thanh toán giao nhận tại đây, để được
+                                    cung cấp thông tin đầy đủ và chi tiết nhất.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="qa">
-                    <h5>3. Nếu đổi trả tôi không mang theo hoá đơn và phiếu thông tin sản phẩm thì có
-                        được đổi trả không?</h5>
-                    <div class="qa-ans">
-                        <p>
-                            Trường hợp, khách hàng không có hóa đơn hoặc phiếu thông tin sản phẩm,
-                            CIRCLE vẫn linh động đổi hoặc trả sản phẩm thông qua Số điện thoại mà Khách
-                            hàng đã cung cấp lúc mua hàng.
-                        </p>
-                        <p>
-                            Khách hàng vui lòng cung cấp Số điện thoại cho nhân viên bán hàng để đối soát
-                            lại với hệ thống để được hỗ trợ nhanh chóng.
-                        </p>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
+                                3. Nếu đổi trả tôi không mang theo hoá đơn và phiếu thông tin sản phẩm thì có
+                                được đổi trả không?
+                            </button>
+                        </h2>
+                        <div id="collapseThree3" class="accordion-collapse collapse" aria-labelledby="headingThree3"
+                            data-bs-parent="#accordionExample1">
+                            <div class="accordion-body">
+                                <p>
+                                    Trường hợp, khách hàng không có hóa đơn hoặc phiếu thông tin sản phẩm,
+                                    CIRCLE vẫn linh động đổi hoặc trả sản phẩm thông qua Số điện thoại mà Khách
+                                    hàng đã cung cấp lúc mua hàng.
+                                </p>
+                                <p>
+                                    Khách hàng vui lòng cung cấp Số điện thoại cho nhân viên bán hàng để đối soát
+                                    lại với hệ thống để được hỗ trợ nhanh chóng.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="qa">
-                    <h5>4. Tôi có được đổi sản phẩm mới hoặc hoàn trả tiền không?</h5>
-                    <div class="qa-ans">
-                        <p>Khi hàng hoá thoả điều kiện đổi/ trả, khách sẽ được đổi trả và hoàn tiền trong
-                            trường hợp trả hàng hoặc đổi hàng có giá trị thấp hơn</p>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour4" aria-expanded="false" aria-controls="collapseFour4">
+                                4. Tôi có được đổi sản phẩm mới hoặc hoàn trả tiền không?
+                            </button>
+                        </h2>
+                        <div id="collapseFour4" class="accordion-collapse collapse" aria-labelledby="headingFour4"
+                            data-bs-parent="#accordionExample1">
+                            <div class="accordion-body">
+                                <p>Khi hàng hoá thoả điều kiện đổi/ trả, khách sẽ được đổi trả và hoàn tiền trong
+                                    trường hợp trả hàng hoặc đổi hàng có giá trị thấp hơn
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -292,6 +349,7 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
     <script src="./slick/slick.min.js"></script>
     <script src="./index.js"></script>
 </body>
