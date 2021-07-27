@@ -407,6 +407,10 @@ a {
     height: 50px;
 }
 
+.payment-method:hover {
+    cursor: pointer;
+}
+
 .vnpay {
     height: 40px;
     width: 120px !important;

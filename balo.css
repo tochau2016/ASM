@@ -3,7 +3,7 @@
 }
 
 .empty-box {
-    color: transparent;
+    color: #636363;
     border: 1px solid #9f9c9c;
     padding: 5px 10px;
 }
@@ -13,7 +13,7 @@
 }
 
 .size-box {
-    color: transparent;
+    color: #636363;
     border: 1px solid #9f9c9c;
     margin-top: 20px;
     padding: 5px 10px;
@@ -41,6 +41,16 @@
     border-radius: 50%;
     width: 30px;
     height: 30px;
+}
+
+.form-check-input:checked {
+    background-color: #F2886B;
+    border-color: #F2886B;
+}
+
+.form-check-input:focus {
+    border-color: transparent;
+    box-shadow: none;
 }
 
 .pink {
@@ -247,4 +257,24 @@
     .seen-product .title-line {
         display: none !important;
     }
+
+    .seen-product .list-seen-product .product-item {
+        height: 250px;
+    }
 }
+
+@media only screen and (max-width: 320px) {
+    .seen-product-title {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .product-item {
+        height: 240px;
+    }
+
+    .seen-product .list-seen-product .product-item {
+        height: 200px;
+    }
+}
+
